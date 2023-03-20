@@ -3,31 +3,52 @@
 url = "https://2d2d.io"
 name = "TO-D 杂志"
 description = "专注于探讨全球 To-D 领域相关产品、创业公司、融资等资讯的专栏杂志。"
+edit_url = "https://github.com/zineland/2d2d/edit/main"
+social_image = "/static/2d2d.png"
 locale = "zh"
 menu = [
   { name = "关于", url = "/about" },
   { name = "博客", url = "/blog" },
-  { name = "读者好评", url = "/testimonial" },
+  { name = "读者好评", url = "/review" },
   { name = "赞助", url = "/sponsor" },
-  { name = "Github", url = "https://github.com/zineland/2d2d" },
+  { name = "GitHub", url = "https://github.com/zineland/2d2d" },
 ]
 
+[authors]
+folyd = { avatar = "/static/avatar/folyd.jpg", editor = true, bio = """
+<p class="text-center">
+《TO-D 杂志》责任编辑，目前就职于字节跳动
+</p>
+
+> 申明：个人文章仅代表个人观点，与雇主无关。
+
+可以通过如下方式联系到我：
+- [博客](https://folyd.com)
+- [GitHub](https://github.com/folyd)
+- [Twitter](https://twitter.com/_hisriver)
+- [Telegram](https://t.me/hisriver)
+""" }
+tianzhou = { avatar = "/static/avatar/tianzhou.jpg", bio = """
+<p class="text-center">
+bytebase.com 首席涂鸦官
+</p>
+
+> 申明：个人文章代表不了公司观点。
+
+可以通过如下方式联系到我：
+- [GitHub](https://github.com/tianzhou)
+- [Twitter](https://twitter.com/tianzhouchen)
+""" }
+
+
 [theme]
-primary-color = "#ffb52f"
-main-color = "#000"
-link-color = "#e07312"
-background-image = "/static/pattern.svg"
-footer-template = "templates/footer.html"
+primary_color = "#ffb52f"
+main_color = "#000"
+link_color = "#e07312"
+background_image = "/static/pattern.svg"
+head_template = "templates/head.html"
+footer_template = "templates/footer.html"
+article_extend_template = "templates/article-extend.html"
 
-[[season]]
-slug = "s1"
-number = 1
-title = "第一季"
-path = "content/season-1"
-intro = "content/season-1/intro.md"
-
-[[season]]
-slug = "s2"
-number = 2
-title = "第二季"
-path = "content/season-2"
+[markdown]
+highlight_theme = "ayu-light"

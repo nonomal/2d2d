@@ -1,0 +1,104 @@
+slug = "s1"
+number = 1
+title = "第一季"
+publish = true
+
+[[article]]
+slug = "retool"
+file = "1-retool.md"
+title = "Retool: Raising less money at lower valuations"
+author = "Folyd"
+cover = "/static/s1/1/retool.png"
+pub_date = "2021-12-23"
+publish = true
+featured = true
+
+[[article]]
+slug = "cncf"
+file = "2-cncf.md"
+title = "CNCF 的愿景：技术变革与对抗熵增"
+author = "Folyd"
+cover = "/static/s1/2/specs.png"
+pub_date = "2021-12-29"
+publish = true
+featured = true
+
+[[article]]
+slug = "hashicorp"
+file = "3-hashicorp.md"
+title = "时势造英雄-HashiCorp"
+author = "Folyd"
+cover = "/static/s1/3/ipo.png"
+pub_date = "2022-01-06"
+publish = true
+featured = true
+
+[[article]]
+slug = "kong-vs-apisix"
+file = "4-kong-vs-apisix.md"
+title = "云原生时代的中外 API 网关之争"
+author = "Folyd"
+cover = "/static/s1/4/vs.png"
+pub_date = "2022-01-13"
+publish = true
+featured = true
+
+[[article]]
+slug = "coreos"
+file = "5-coreos.md"
+title = "云原生的一代传奇 CoreOS"
+author = "Folyd"
+cover = "/static/s1/5/product.png"
+pub_date = "2022-01-20"
+publish = true
+featured = true
+
+[[article]]
+slug = "docker"
+file = "6-docker.md"
+title = "一封 Docker 公司的来信"
+author = "Folyd"
+cover = "/static/s1/6/docker.jpeg"
+pub_date = "2022-01-27"
+publish = true
+featured = true
+
+[[article]]
+slug = "rancher"
+file = "7-rancher.md"
+title = "云农场的放牧人 Rancher"
+author = "Folyd"
+cover = "/static/s1/7/rancher.png"
+pub_date = "2022-02-10"
+publish = true
+featured = true
+
+[[article]]
+slug = "mesos"
+file = "8-mesos.md"
+title = "曾经 Mesos 背后的公司，如今在干嘛?"
+author = "Folyd"
+cover = "/static/s1/8/d2iq.png"
+pub_date = "2022-02-18"
+publish = true
+featured = true
+
+[[article]]
+slug = "mirantis"
+file = "9-mirantis.md"
+title = "收购 Docker 企业业务的 Mirantis 是什么来路？"
+author = "Folyd"
+cover = "/static/s1/9/mirantis.png"
+pub_date = "2022-02-25"
+publish = true
+featured = true
+
+[[article]]
+slug = "why"
+file = "10-why.md"
+title = "为什么要写《TO-D 杂志》？"
+author = "Folyd"
+cover = "/static/s1/10/why.png"
+pub_date = "2022-03-20"
+publish = true
+featured = true
